@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.card-title{
+  text-align: center;
+  padding-bottom: 8px;
+  color: #fff;
+}
+.card{
+  width: 70%;
+  height: 80vh;
+  border-radius: 5px;
+  background-color: rgb(20, 20, 20);
+  padding: 1rem;
+}
+.todo-form{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+.todo-form input{
+  width: 85%;
+  height: 35px;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+  border:2px solid rgb(241, 198, 3);
+  font-size: 16px;
+}
+.btn{
+  width: 13%;
+  font-size: 18px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 3px;
+  border:2px solid rgb(241, 198, 3);
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  background-color: rgb(241, 198, 3);
+  border: none;
+  border-radius: 0.1rem;
+  border:1px solid #fff;
+  cursor: pointer;
+}
+.list-style{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#fff;
+  padding: 0.5rem;
+
+  background-color: rgb(34, 29, 29);
+  font-size: 18px;
+  margin: 8px 0px;
+  border-radius: 5px;
+}
+.list-style:hover{
+  background-color:#333;
+}
+.deletBtn{
+  padding: 0.5rem;
+}
+.deletBtn:hover{
+  border:none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: rgb(241, 198, 3);
+}
+.bg-success{
+  background-color: skyblue;
+  color:#fff;
+  padding: 5px;
+}
+.bg-danger{
+  background-color: rgb(241, 134, 92);
+  color:#fff;
+  padding: 5px;
+}
